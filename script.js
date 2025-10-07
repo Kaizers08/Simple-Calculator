@@ -7,7 +7,9 @@ arr.forEach(button => {
 button.addEventListener('click', (e) =>{
     if(e.target.innerHTML == '='){
         string =eval(string);
-        input.value =string;
+         let expressionToEvaluate = string.replace(/x/g, '*').replace(/÷/g, '/');
+            string = eval(expressionToEvaluate);
+            input.value = string;
     }
     else if(e.target.innerHTML == 'AC')
     {
