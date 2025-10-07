@@ -1,5 +1,3 @@
-# Simple-Calculator
-
 Dear Developer,
 
 I'm here to help you understand how your simple calculator project is put together. It's built using three main ingredients: HTML, CSS, and JavaScript. Think of it like building a small, interactive gadget!
